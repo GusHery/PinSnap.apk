@@ -1,16 +1,62 @@
-# flutter_application_2
+# PinSnap
 
-A new Flutter project.
+PinSnap adalah aplikasi Android berbasis kamera dan geolokasi yang memungkinkan pengguna
+menyimpan lokasi-lokasi menarik yang mereka temui secara langsung.  
+Aplikasi ini menggabungkan pengambilan foto dengan pencatatan koordinat GPS secara otomatis,
+sehingga setiap lokasi yang disimpan memiliki data yang akurat dan autentik.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Fitur Utama
+- Ambil foto langsung dari aplikasi
+- Pin lokasi otomatis menggunakan GPS
+- Tambah nama atau keterangan tempat
+- Simpan lokasi ke menu Saved
+- Buka lokasi langsung di Google Maps
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Cara Kerja Aplikasi
+1. Pengguna mengambil foto menggunakan kamera di dalam aplikasi  
+2. Sistem otomatis mengambil koordinat GPS sesuai lokasi pengguna  
+3. Pengguna menambahkan nama atau keterangan lokasi  
+4. Data lokasi disimpan ke menu **Saved Location**  
+5. Lokasi dapat dibuka kembali melalui Google Maps  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+> **Catatan:** Lokasi hanya dapat disimpan jika pengguna berada langsung di tempat tersebut.
+
+---
+
+## Desain Aplikasi (Figma)
+
+### Login
+![Login](assets/login.png)
+
+### Kamera
+![Camera](assets/camera.png)
+![Camera Detail](assets/camera1.png)
+
+### Tambah Lokasi
+![Tambah Lokasi](assets/nambahlokasi.png)
+
+### Riwayat Lokasi
+![History](assets/history.png)
+![History Detail](assets/history1.png)
+
+### Tampilan Umum
+![Tampilan](assets/tampilan.png)
+
+---
+
+## Diagram UML
+Diagram UML digunakan untuk menggambarkan struktur dan alur sistem aplikasi:
+
+### Use Case Diagram
+![Use Case](assets/usecase.png)
+
+---
+
+## Author
+- I Kadek Dwitya Arinata  
+- Kadek Diana Angelika P.  
+- Ida Bagus Herry Putra Wibawa  
